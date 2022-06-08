@@ -1,9 +1,10 @@
+import com.globalpayex.college.entities.Studentold;
 
 public class drop {
 	public static void main(String[] args) {
-		Student s1= new Student();
-		Student s2 =new Student();
-		Student s3= new Student();
+		Studentold s1= new Studentold();
+		Studentold s2 =new Studentold();
+		Studentold s3= new Studentold();
 //	    System.out.println(s1);
 	    System.out.println(s1.Name);
 	    System.out.println(s1.Gender);

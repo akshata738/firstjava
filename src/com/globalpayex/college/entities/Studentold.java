@@ -1,24 +1,25 @@
+package com.globalpayex.college.entities;
 
-public class Student {
+public class Studentold {
 	//instance atribute
-	String Name;
-	char Gender;
-	int Rno;
-	float Marks;
-	static int count;
-	Student(){
+	public String Name;
+	public char Gender;
+	public int Rno;
+	public float Marks;
+	public static int count;
+	Studentold(){
 		this("NA",'n',12, 0.0f);
 	}
 	
-	        Student(String Name,char Gender,int Rno,float Marks){
+	        public Studentold(String Name,char Gender,int Rno,float Marks){
 	        	this.Name=Name;
 	        	this.Rno=Rno;
 	        	this.Gender=Gender;
 	        	this.Marks=Marks;
-	        	++Student.count;
+	        	++Studentold.count;
 	        }
 			
-			String getDetails() {
+			public String getDetails() {
 //				return "Name:" + this.Name + "\nGender:" + this.Gender + "\nRno:" + this.Rno + "\nMarks:" + this.Marks;
 			    return String.format("Name:%s\n gender:%s\n Rno:%s\n Marks:%s/n",this.Name,this.Gender,this.Rno,this.Marks);
 			    
@@ -54,8 +55,8 @@ public class Student {
 						}
 				
 			}
-			static Student newInstance(String Name ,char Gender, int Rno,float Marks) {
-				return new Student(Name,Gender,Rno,Marks);
+			public static Studentold newInstance(String Name ,char Gender, int Rno,float Marks) {
+				return new Studentold(Name,Gender,Rno,Marks);
 			}
 			
 }
