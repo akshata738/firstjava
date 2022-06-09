@@ -2,7 +2,7 @@ package com.globalpayex.college.entities;
 
 public class Student extends Collegeuser {
 	int roll;
-	float marks;
+	public float marks;
 	public Student(String name, char gender, int roll, float marks) {
 		super(name, gender);
 		this.name=name;
