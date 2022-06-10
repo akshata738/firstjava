@@ -5,7 +5,7 @@ public class Collegeuser { //bydefault extends from object
 	public char gender;
 	
 	public Collegeuser(String name, char gender) {
-		super();
+		super();//calls the parent constructor (in this case parent is object class which is default in java)
 		this.name = name;
 		this.gender = gender;
 	}
@@ -23,3 +23,4 @@ public class Collegeuser { //bydefault extends from object
 	
 
 }
+//

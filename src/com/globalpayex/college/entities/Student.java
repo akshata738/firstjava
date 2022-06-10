@@ -12,7 +12,7 @@ public class Student extends Collegeuser {
 	}
 	@Override
 	public String getdetails() {
-		String s1= super.getdetails();
+		String s1= super.getdetails(); //Collegeuser.getDetails();
 //		super.getdetails();
 		 return String.format("name:%s\n gender:%s\n roll:%s\n marks:%s\n ",this.name,this.gender,this.roll,this.marks);
 		 
