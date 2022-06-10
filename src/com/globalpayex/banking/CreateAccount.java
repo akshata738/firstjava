@@ -5,8 +5,13 @@ import com.globalpayex.bank.exceptions.MinBalanceCheckException;
 public class CreateAccount {
 	public static void main(String[] args) {
 		Account a=new Account(523641,2000,"Savings",2000);
-		System.out.println(a.deposit(2000));
-		System.out.println(a.Withdraw(-4000));
+		System.out.println(a.Deposit(2000));
+		try {
+			
+			System.out.println(a.Withdraw(-4000));
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
 		try {
 			System.out.println(a.Withdraw(-1000));
 		}
@@ -18,6 +23,9 @@ public class CreateAccount {
 		}
 		catch(IllegalArgumentException e) {
 			System.out.println(e.getMessage());
+			e.printStackTrace();
+		} catch (MinBalanceCheckException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		try {

@@ -13,15 +13,6 @@ public class Runcollege {
 		System.out.println(p.subjects);
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 	
 

@@ -16,7 +16,6 @@ public class Professor extends Collegeuser implements Salarieindividual {
 	}
 	public Professor(String name, char gender, double costperday, int workingdays) {
 		super(name, gender);
-		this.subjects =subjects;
 		this.costperday = costperday;
 		this.workingdays = workingdays;
 	}
