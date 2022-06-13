@@ -56,6 +56,7 @@ public class StudentStream {
     		   .collect(Collectors.joining(","));
        
        System.out.println(add);
+       System.out.println("Finally Done");
        
 	}
 	
