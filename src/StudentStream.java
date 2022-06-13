@@ -17,7 +17,7 @@ public class StudentStream {
 				new Student("jkhsajd",'m',10,20, new Address(414002,"gujrat","india","surat")),
 				new Student("abc",'m',20,90, new Address(414002,"gujrat","Up","surat")),
 				new Student("jkh",'m',10,100, new Address(414002,"punjab","USA","surat")),
-				new Student("jkh",'m',10,100)
+				new Student("jkh",'m',10,1000)
 				
 				);
 		
