@@ -9,7 +9,21 @@ public class Student extends Collegeuser {
 //		this.gender=gender;
 		this.roll = roll;
 		this.marks = marks;
+		
+	
 	}
+	public Student(String name, char gender, int roll, float marks,Address adress) {
+		super(name, gender, adress);
+//		this.name=name;
+//		this.gender=gender;
+		this.roll = roll;
+		this.marks = marks;
+//		this.address = address;
+		
+		
+	
+	}
+	
 	
 	@Override
 	public String getdetails() {
