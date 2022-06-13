@@ -5,6 +5,7 @@ public class PlayArrayList {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ArrayList <Integer> nos = new ArrayList();
+		nos.add(4);
 		
 		ArrayList <String> cars = new ArrayList();
 		cars.add("i10");

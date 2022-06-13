@@ -18,7 +18,7 @@ public class ContainsElement {
 		int roll=scanner.nextInt();
 		boolean isfound = students.contains(new Student("na",'f',roll,0));
 		System.out.println(roll);
-		System.out.println(isfound ? "Found" :.33333333333333333333 "Not Found");
+		System.out.println(isfound ? "Found" : "Not Found");
 		
 //		for (Student student:students) {
 //			if (student.roll== roll) {
