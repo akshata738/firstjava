@@ -1,9 +1,12 @@
 import com.globalpayex.college.entities.Studentold;
 
 public class CreateStudents {
+	//once we assign final to varibale we cannor define it AGAIN
 	public static void main(String[] args) {
 		Studentold s1= new Studentold("Ramesh",'m',55,82);
-		Studentold s2 =new Studentold("red",'f',65,85);
+		final Studentold s2 =new Studentold("red",'f',65,85);
+//		Studentold s2 =new Studentold("red",'f',65,85);
+		
 //		Student s4 =new Student();
 //		System.out.println(s4.Name);
 		Studentold s3=new Studentold("Ram",'m',50,92);
