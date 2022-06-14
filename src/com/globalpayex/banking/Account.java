@@ -54,6 +54,7 @@ public class Account {
 				return Optional.of(String.format("Accno:%s\n AccType:%s\n " , this.AccNo,this.AccType));
 			}
 			return Optional.empty();
+			
 		}
 		//setter method
 		public void setAcctype(String accType) {
@@ -83,7 +84,10 @@ public class Account {
 			
 //			AccBalance = accBalance;
 		}
-		
+//		public static hasinterest() {
+//			
+//		}
+//		
 		
 		
 

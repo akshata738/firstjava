@@ -1,13 +1,15 @@
 package com.globalpayex.banking;
 
 import java.util.Optional;
+//import static com.globalpayex.bank.Constants*;
+import static com.globalpayex.banking.Constants.*;
 
 import com.globalpayex.bank.exceptions.MinBalanceCheckException;
 
 public class CreateAccount {
 	public static void main(String[] args) {
 		Account b = new Account ("",0,"",0);
-		Account a=new Account("523641",5000,"Savings",2000);
+		Account a=new Account("523641",5000,Acc_Type_Savings,2000);
 		System.out.println(a.Deposit(2000));
 		
 		
@@ -50,7 +52,7 @@ public class CreateAccount {
 		emptyAccount.getDetails().ifPresentOrElse(o ->System.out.println(o.toUpperCase()),
 		() -> System.out.println("null")) ;
 //		emptyAccount.setAcctype("syx");
-		emptyAccount.setAcctype("Savings");
+		emptyAccount.setAcctype(Acc_Type_Savings);
 		emptyAccount.setAccBalance(5500);
 		
 		System.out.println(emptyAccount.getAcctype());
